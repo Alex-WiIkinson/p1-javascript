@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <button onclick="displayModal()" id="showButton">Click for popup.</button>
+    <section id="modalBox" class="modalBox">
+        <h1 class="modalTitle">Please confirm age.</h1>
+        <p class="modalText">To access this page please enter your age below.</p>
+        <input type="tect" id="age" class="ageInput">
+        <button onclick="confirm()" id="confirmButton" class="confirmButton">confirm</button>
+    </section>
+    <h1 id="denyText" class="denyText">Access denied, you are not old enough to visit this website.</h1>
+</body>
+</html>

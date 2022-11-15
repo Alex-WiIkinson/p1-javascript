@@ -1,0 +1,62 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.modalBox {
+    display: none;
+    flex-direction: column;
+
+    width: 50vw;
+    margin-top: 10%;
+    padding: 40px;
+
+    background-color: rgb(232, 232, 232);
+    color: black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 25px rgb(178, 178, 178);
+}
+
+.modalText {
+    padding: 10px 0px 30px 0px;
+}
+
+.ageInput {
+    height: 20px;
+    margin-bottom: 5px;
+
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.confirmButton {
+    height: 50px;
+    margin-top: 5px;
+
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+    background-color: green;
+}
+
+.denyText {
+    display: none;
+
+    margin-top: 50vh;
+    color: white;
+}
+
+.bodyDenyColor {
+    background-color: red;
+}
+
+.confirmButton:hover {
+    cursor: pointer;
+    background-color: rgb(0, 86, 0);
+}
